@@ -20,10 +20,6 @@ Build a reproducible pipeline that could serve as a portfolio project for both l
 
 Data Overview
 
-Target variable: SalePrice (house sale price in USD).
-
-Features: 79 explanatory variables including numerical (e.g., LotArea, YearBuilt) and categorical (e.g., Neighborhood, RoofStyle).
-
 Feature distribution: Most categorical variables are highly imbalanced (e.g., Electrical, Condition2), while numerical features like GrLivArea and LotArea show skewness.
 
 Missing values: Several variables contain missing data (e.g., LotFrontage, Alley, FireplaceQu, GarageType). Handling these is an important step in the pipeline.
